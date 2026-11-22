@@ -1,0 +1,7 @@
+\begin{tabular}{lcccccccccccccccccc}
+\hline
+Configuration & seeds & Best val. acc. (%) & Test acc. @best-val ckpt (%) & Test acc. last round (%) & Best round & Mean update norm & Mean pairwise cosine & Update dispersion & Loss gap (global-local) & Round time (s) & Total comm. (GB) & TAR@FAR=1e-4 (test) (%) & TAR@FAR=1e-3 (test) (%) & TAR@FAR=1e-2 (test) (%) & EER (test) (%) & Rank-1 (test) (%) & Rank-5 (test) (%) & Open-set TPIR@FPIR=1e-2 (test) (%) \\
+\hline
+fedavg, non-IID beta=0.2, 5 clients & 5 & 90.47 $\pm$ 0.16 [$\pm$0.20] & 90.62 $\pm$ 0.18 [$\pm$0.23] & 90.10 $\pm$ 0.57 [$\pm$0.70] & 48.40 $\pm$ 1.67 [$\pm$2.08] & 37.48 $\pm$ 0.60 [$\pm$0.74] & 0.04 $\pm$ 0.00 [$\pm$0.00] & 0.68 $\pm$ 0.00 [$\pm$0.00] & 0.23 $\pm$ 0.09 [$\pm$0.11] & 998.79 $\pm$ 141.72 [$\pm$175.97] & 42.86 $\pm$ 0.46 [$\pm$0.57] & 39.44 $\pm$ 1.39 [$\pm$1.72] & 60.18 $\pm$ 1.25 [$\pm$1.55] & 80.89 $\pm$ 0.71 [$\pm$0.88] & 6.54 $\pm$ 0.19 [$\pm$0.24] & 78.65 $\pm$ 0.40 [$\pm$0.50] & 89.88 $\pm$ 0.33 [$\pm$0.41] & 40.45 $\pm$ 1.42 [$\pm$1.76] \\
+\hline
+\end{tabular}
